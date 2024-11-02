@@ -1,0 +1,9 @@
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\key preview.csproj.AssemblyReference.cache
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\key preview.csproj.GenerateResource.cache
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\key preview.csproj.CoreCompileInputs.cache
+C:\Users\charl\Downloads\key_preview\key preview\key preview\bin\Release\Touhou Game Selector.exe.config
+C:\Users\charl\Downloads\key_preview\key preview\key preview\bin\Release\Touhou Game Selector.exe
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\Touhou Game Selector.exe
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\touhou_selector.Properties.Resources.resources
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\touhou_selector.Form1.resources
+C:\Users\charl\Downloads\key_preview\key preview\key preview\obj\Release\touhou_selector.ConfigWindow.resources
