@@ -1,0 +1,11 @@
+Z:\Projects\touhou_selector\touhou_selector\bin\Debug\Touhou Game Selector.exe.config
+Z:\Projects\touhou_selector\touhou_selector\bin\Debug\Touhou Game Selector.exe
+Z:\Projects\touhou_selector\touhou_selector\bin\Debug\Touhou Game Selector.pdb
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.csproj.AssemblyReference.cache
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.Form1.resources
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.ConfigWindow.resources
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.Properties.Resources.resources
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.csproj.GenerateResource.cache
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\touhou_selector.csproj.CoreCompileInputs.cache
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\Touhou Game Selector.exe
+Z:\Projects\touhou_selector\touhou_selector\obj\Debug\Touhou Game Selector.pdb

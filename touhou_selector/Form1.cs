@@ -205,32 +205,81 @@ namespace touhou_selector {
                 if (menuLoc == 1)
                 {
                     fixErrorSoundBug = true;
-                    Process.Start("C:\\DosBox-X\\dosbox-x.exe", "-conf C:\\Dosbox-X\\touhou1.conf");
-                    Application.Exit();
+                    try
+                    {
+                        Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t1conf"].ToString());
+                        Application.Exit();
+                    }
+                    catch
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
                 }
                 if (menuLoc == 2)
                 {
                     fixErrorSoundBug = true;
-                    Process.Start("C:\\DosBox-X\\dosbox-x.exe", "-conf C:\\Dosbox-X\\touhou2.conf");
-                    Application.Exit();
+                    try
+                    {
+                        Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t2conf"].ToString());
+                        Application.Exit();
+                    }
+                    catch
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+
                 }
                 if (menuLoc == 3)
                 {
                     fixErrorSoundBug = true;
-                    Process.Start("C:\\DosBox-X\\dosbox-x.exe", "-conf C:\\Dosbox-X\\touhou3.conf");
-                    Application.Exit();
+                    try
+                    {
+                        Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t3conf"].ToString());
+                        Application.Exit();
+                    }
+                    catch
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+
                 }
                 if (menuLoc == 4)
                 {
                     fixErrorSoundBug = true;
-                    Process.Start("C:\\DosBox-X\\dosbox-x.exe", "-conf C:\\Dosbox-X\\touhou4.conf");
-                    Application.Exit();
+                    try
+                    {
+                        Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t4conf"].ToString());
+                        Application.Exit();
+                    }
+                    catch
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+
                 }
                 if (menuLoc == 5)
                 {
                     fixErrorSoundBug = true;
-                    Process.Start("C:\\DosBox-X\\dosbox-x.exe", "-conf C:\\Dosbox-X\\touhou5.conf");
-                    Application.Exit();
+                    try
+                    {
+                        Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t5conf"].ToString());
+                        Application.Exit();
+                    }
+                    catch
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+
                 }
                 if (menuLoc == 6)
 				{
