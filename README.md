@@ -22,3 +22,5 @@ This is the configuration page. You can get here by pressing `ALT + C` Here you 
 On this page you need to select your games and hit save. **Your changes will be kept.**
 
 ![image](https://github.com/user-attachments/assets/c95c0a5e-606e-4d26-8836-bfbdf005c15b)
+
+Now it's ready to go.
