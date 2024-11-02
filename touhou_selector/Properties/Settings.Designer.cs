@@ -286,5 +286,77 @@ namespace touhou_selector.Properties {
                 this["t95exe"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string dosboxexe {
+            get {
+                return ((string)(this["dosboxexe"]));
+            }
+            set {
+                this["dosboxexe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t1conf {
+            get {
+                return ((string)(this["t1conf"]));
+            }
+            set {
+                this["t1conf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t2conf {
+            get {
+                return ((string)(this["t2conf"]));
+            }
+            set {
+                this["t2conf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t3conf {
+            get {
+                return ((string)(this["t3conf"]));
+            }
+            set {
+                this["t3conf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t4conf {
+            get {
+                return ((string)(this["t4conf"]));
+            }
+            set {
+                this["t4conf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t5conf {
+            get {
+                return ((string)(this["t5conf"]));
+            }
+            set {
+                this["t5conf"] = value;
+            }
+        }
     }
 }

@@ -37,6 +37,13 @@ namespace touhou_selector
             t123exeTextBox.Text = Properties.Settings.Default["t123exe"].ToString();
             t125dirTextBox.Text = Properties.Settings.Default["t125workdir"].ToString();
             t125exeTextBox.Text = Properties.Settings.Default["t125exe"].ToString();
+            dosdirTextBox.Text = Properties.Settings.Default["dosboxexe"].ToString();
+            t1confTextBox.Text = Properties.Settings.Default["t1conf"].ToString();
+            t2confTextBox.Text = Properties.Settings.Default["t2conf"].ToString();
+            t3confTextBox.Text = Properties.Settings.Default["t3conf"].ToString();
+            t4confTextBox.Text = Properties.Settings.Default["t4conf"].ToString();
+            t5confTextBox.Text = Properties.Settings.Default["t5conf"].ToString();
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -64,6 +71,8 @@ namespace touhou_selector
 
         private void t6exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -105,7 +114,11 @@ namespace touhou_selector
             Properties.Settings.Default["t123exe"] = t123exeTextBox.Text;
             Properties.Settings.Default["t125workdir"] = t125dirTextBox.Text;
             Properties.Settings.Default["t125exe"] = t125exeTextBox.Text;
-
+            Properties.Settings.Default["t1conf"] = t1confTextBox.Text;
+            Properties.Settings.Default["t2conf"] = t2confTextBox.Text;
+            Properties.Settings.Default["t3conf"] = t3confTextBox.Text;
+            Properties.Settings.Default["t4conf"] = t4confTextBox.Text;
+            Properties.Settings.Default["t5conf"] = t5confTextBox.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -124,6 +137,8 @@ namespace touhou_selector
 
         private void t7exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -145,6 +160,8 @@ namespace touhou_selector
 
         private void t8exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -166,6 +183,8 @@ namespace touhou_selector
 
         private void t9exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -187,6 +206,8 @@ namespace touhou_selector
 
         private void t95exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -208,6 +229,8 @@ namespace touhou_selector
 
         private void t10exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -229,6 +252,8 @@ namespace touhou_selector
 
         private void t105exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -250,6 +275,8 @@ namespace touhou_selector
 
         private void t11exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -260,6 +287,7 @@ namespace touhou_selector
         }
         private void t12dirButton_Click(object sender, EventArgs e)
         {
+            
             DialogResult result = DirBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -271,6 +299,8 @@ namespace touhou_selector
 
         private void t12exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -281,6 +311,7 @@ namespace touhou_selector
         }
         private void t123dirButton_Click(object sender, EventArgs e)
         {
+            
             DialogResult result = DirBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -292,9 +323,12 @@ namespace touhou_selector
 
         private void t123exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
+
                 t123exeTextBox.Text = EXEBrowse.FileName;
                 Properties.Settings.Default["t123exe"] = EXEBrowse.FileName;
                 Properties.Settings.Default.Save();
@@ -302,6 +336,7 @@ namespace touhou_selector
         }
         private void t125dirButton_Click(object sender, EventArgs e)
         {
+            
             DialogResult result = DirBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -313,9 +348,12 @@ namespace touhou_selector
 
         private void t125exeButton_Click(object sender, EventArgs e)
         {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
             DialogResult result = EXEBrowse.ShowDialog();
             if (result == DialogResult.OK)
             {
+                
                 t125exeTextBox.Text = EXEBrowse.FileName;
                 Properties.Settings.Default["t125exe"] = EXEBrowse.FileName;
                 Properties.Settings.Default.Save();
@@ -326,5 +364,96 @@ namespace touhou_selector
         {
            
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dosboxexeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "DOSBox-X Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                dosdirTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["dosboxexe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+        private void t1confButton_Click(object sender, EventArgs e)
+        {
+            {
+                EXEBrowse.Title = "Touhou 1 DOSBox-X conf File";
+                EXEBrowse.Filter = "DOSBox-X Config Files|*.conf";
+                DialogResult result = EXEBrowse.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    t1confTextBox.Text = EXEBrowse.FileName;
+                    Properties.Settings.Default["t1conf"] = EXEBrowse.FileName;
+                    Properties.Settings.Default.Save();
+                }
+            }
+        }
+        private void t2confButton_Click(object sender, EventArgs e)
+        {
+            {
+                EXEBrowse.Title = "Touhou 2 DOSBox-X conf File";
+                EXEBrowse.Filter = "DOSBox-X Config Files|*.conf";
+                DialogResult result = EXEBrowse.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    t2confTextBox.Text = EXEBrowse.FileName;
+                    Properties.Settings.Default["t2conf"] = EXEBrowse.FileName;
+                    Properties.Settings.Default.Save();
+                }
+            }
+        }
+        private void t3confButton_Click(object sender, EventArgs e)
+        {
+            {
+                EXEBrowse.Title = "Touhou 3 DOSBox-X conf File";
+                EXEBrowse.Filter = "DOSBox-X Config Files|*.conf";
+                DialogResult result = EXEBrowse.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    t3confTextBox.Text = EXEBrowse.FileName;
+                    Properties.Settings.Default["t3conf"] = EXEBrowse.FileName;
+                    Properties.Settings.Default.Save();
+                }
+            }
+        }
+        private void t4confButton_Click(object sender, EventArgs e)
+        {
+            {
+                EXEBrowse.Title = "Touhou 4 DOSBox-X conf File";
+                EXEBrowse.Filter = "DOSBox-X Config Files|*.conf";
+                DialogResult result = EXEBrowse.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    t4confTextBox.Text = EXEBrowse.FileName;
+                    Properties.Settings.Default["t4conf"] = EXEBrowse.FileName;
+                    Properties.Settings.Default.Save();
+                }
+            }
+        }
+        private void t5confButton_Click(object sender, EventArgs e)
+        {
+            {
+                EXEBrowse.Title = "Touhou 5 DOSBox-X conf File";
+                EXEBrowse.Filter = "DOSBox-X Config Files|*.conf";
+                DialogResult result = EXEBrowse.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    t5confTextBox.Text = EXEBrowse.FileName;
+                    Properties.Settings.Default["t5conf"] = EXEBrowse.FileName;
+                    Properties.Settings.Default.Save();
+                }
+            }
+        }
+
+       
     }
 }
