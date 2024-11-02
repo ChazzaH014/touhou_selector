@@ -289,7 +289,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t6workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t6exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t6exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -310,7 +310,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t7workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t7exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t7exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -332,7 +332,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t8workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t8exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t8exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -354,7 +354,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t9workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t9exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t9exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -376,7 +376,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t95workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t95exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t95exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -396,7 +396,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t10workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t10exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t10exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -414,7 +414,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t105workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t105exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t105exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -432,7 +432,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t11workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t11exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t11exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -450,7 +450,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t12workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t12exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t12exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -468,7 +468,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t123workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t123exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t123exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
@@ -486,7 +486,7 @@ namespace touhou_selector {
                     var startInfo = new ProcessStartInfo();
                     try
                     {
-                        startInfo.WorkingDirectory = Properties.Settings.Default["t125workdir"].ToString();
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t125exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t125exe"].ToString();
                         Process.Start(startInfo);
                         Application.Exit();
