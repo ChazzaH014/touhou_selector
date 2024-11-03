@@ -610,6 +610,258 @@ namespace touhou_selector {
                         MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     }
                 }
+                if (menuLoc == 17)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t13exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t13exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 18)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t135exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t135exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 19)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t14exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t14exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 20)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t143exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t143exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 21)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t145exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t145exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 22)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t15exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t15exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 23)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t155exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t155exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 24)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t16exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t16exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 25)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t165exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t165exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 26)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t17exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t17exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 27)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t175exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t175exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 28)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t18exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t18exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 29)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t185exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t185exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
+                if (menuLoc == 30)
+                {
+                    fixErrorSoundBug = true;
+                    var startInfo = new ProcessStartInfo();
+                    try
+                    {
+                        startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t19exe"].ToString());
+                        startInfo.FileName = Properties.Settings.Default["t19exe"].ToString();
+                        Process.Start(startInfo);
+                        Application.Exit();
+                    }
+                    catch (Exception ex)
+                    {
+                        const string message = "The launcher was unable to find the game. Did you set the paths? Press ALT + C to get to configuration.";
+                        const string caption = "Game Launch Failed!";
+                        MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    }
+                }
                 else
                 {
                     // Here is that dirty fix from earlier being applied.

@@ -358,5 +358,173 @@ namespace touhou_selector.Properties {
                 this["t5conf"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t13exe {
+            get {
+                return ((string)(this["t13exe"]));
+            }
+            set {
+                this["t13exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t135exe {
+            get {
+                return ((string)(this["t135exe"]));
+            }
+            set {
+                this["t135exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t14exe {
+            get {
+                return ((string)(this["t14exe"]));
+            }
+            set {
+                this["t14exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t143exe {
+            get {
+                return ((string)(this["t143exe"]));
+            }
+            set {
+                this["t143exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t145exe {
+            get {
+                return ((string)(this["t145exe"]));
+            }
+            set {
+                this["t145exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t15exe {
+            get {
+                return ((string)(this["t15exe"]));
+            }
+            set {
+                this["t15exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t155exe {
+            get {
+                return ((string)(this["t155exe"]));
+            }
+            set {
+                this["t155exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t16exe {
+            get {
+                return ((string)(this["t16exe"]));
+            }
+            set {
+                this["t16exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t165exe {
+            get {
+                return ((string)(this["t165exe"]));
+            }
+            set {
+                this["t165exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t17exe {
+            get {
+                return ((string)(this["t17exe"]));
+            }
+            set {
+                this["t17exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t175exe {
+            get {
+                return ((string)(this["t175exe"]));
+            }
+            set {
+                this["t175exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t18exe {
+            get {
+                return ((string)(this["t18exe"]));
+            }
+            set {
+                this["t18exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t185exe {
+            get {
+                return ((string)(this["t185exe"]));
+            }
+            set {
+                this["t185exe"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string t19exe {
+            get {
+                return ((string)(this["t19exe"]));
+            }
+            set {
+                this["t19exe"] = value;
+            }
+        }
     }
 }

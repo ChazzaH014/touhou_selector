@@ -15,34 +15,37 @@ namespace touhou_selector
         {
             
             InitializeComponent();
-            //t6dirTextBox.Text = Properties.Settings.Default["t6workdir"].ToString();
-            t6exeTextBox.Text = Properties.Settings.Default["t6exe"].ToString();
-           // t7dirTextBox.Text = Properties.Settings.Default["t7workdir"].ToString();
-            t7exeTextBox.Text = Properties.Settings.Default["t7exe"].ToString();
-           // t8dirTextBox.Text = Properties.Settings.Default["t8workdir"].ToString();
-            t8exeTextBox.Text = Properties.Settings.Default["t8exe"].ToString();
-          //  t9dirTextBox.Text = Properties.Settings.Default["t9workdir"].ToString();
-            t9exeTextBox.Text = Properties.Settings.Default["t9exe"].ToString();
-           // t95dirTextBox.Text = Properties.Settings.Default["t95workdir"].ToString();
-            t95exeTextBox.Text = Properties.Settings.Default["t95exe"].ToString();
-          //  t10dirTextBox.Text = Properties.Settings.Default["t10workdir"].ToString();
-            t10exeTextBox.Text = Properties.Settings.Default["t10exe"].ToString();
-           // t105dirTextBox.Text = Properties.Settings.Default["t105workdir"].ToString();
-            t105exeTextBox.Text = Properties.Settings.Default["t105exe"].ToString();
-          //  t11dirTextBox.Text = Properties.Settings.Default["t11workdir"].ToString();
-            t11exeTextBox.Text = Properties.Settings.Default["t11exe"].ToString();
-           // t12dirTextBox.Text = Properties.Settings.Default["t12workdir"].ToString();
-            t12exeTextBox.Text = Properties.Settings.Default["t12exe"].ToString();
-          //  t123dirTextBox.Text = Properties.Settings.Default["t123workdir"].ToString();
-            t123exeTextBox.Text = Properties.Settings.Default["t123exe"].ToString();
-          //  t125dirTextBox.Text = Properties.Settings.Default["t125workdir"].ToString();
-            t125exeTextBox.Text = Properties.Settings.Default["t125exe"].ToString();
             dosdirTextBox.Text = Properties.Settings.Default["dosboxexe"].ToString();
             t1confTextBox.Text = Properties.Settings.Default["t1conf"].ToString();
             t2confTextBox.Text = Properties.Settings.Default["t2conf"].ToString();
             t3confTextBox.Text = Properties.Settings.Default["t3conf"].ToString();
             t4confTextBox.Text = Properties.Settings.Default["t4conf"].ToString();
             t5confTextBox.Text = Properties.Settings.Default["t5conf"].ToString();
+            t6exeTextBox.Text = Properties.Settings.Default["t6exe"].ToString();
+            t7exeTextBox.Text = Properties.Settings.Default["t7exe"].ToString();
+            t8exeTextBox.Text = Properties.Settings.Default["t8exe"].ToString();
+            t9exeTextBox.Text = Properties.Settings.Default["t9exe"].ToString();
+            t95exeTextBox.Text = Properties.Settings.Default["t95exe"].ToString(); 
+            t10exeTextBox.Text = Properties.Settings.Default["t10exe"].ToString();
+            t105exeTextBox.Text = Properties.Settings.Default["t105exe"].ToString();
+            t11exeTextBox.Text = Properties.Settings.Default["t11exe"].ToString();
+            t12exeTextBox.Text = Properties.Settings.Default["t12exe"].ToString();
+            t123exeTextBox.Text = Properties.Settings.Default["t123exe"].ToString();
+            t125exeTextBox.Text = Properties.Settings.Default["t125exe"].ToString();
+            t13exeTextBox.Text = Properties.Settings.Default["t13exe"].ToString();
+            t135exeTextBox.Text = Properties.Settings.Default["t135exe"].ToString();
+            t14exeTextBox.Text = Properties.Settings.Default["t14exe"].ToString();
+            t143exeTextBox.Text = Properties.Settings.Default["t143exe"].ToString();
+            t145exeTextBox.Text = Properties.Settings.Default["t145exe"].ToString();
+            t15exeTextBox.Text = Properties.Settings.Default["t15exe"].ToString();
+            t155exeTextBox.Text = Properties.Settings.Default["t155exe"].ToString();
+            t16exeTextBox.Text = Properties.Settings.Default["t16exe"].ToString();
+            t165exeTextBox.Text = Properties.Settings.Default["t165exe"].ToString();
+            t17exeTextBox.Text = Properties.Settings.Default["t17exe"].ToString();
+            t175exeTextBox.Text = Properties.Settings.Default["t175exe"].ToString();
+            t18exeTextBox.Text = Properties.Settings.Default["t18exe"].ToString();
+            t185exeTextBox.Text = Properties.Settings.Default["t185exe"].ToString();
+            t19exeTextBox.Text = Properties.Settings.Default["t19exe"].ToString();
 
         }
 
@@ -92,33 +95,37 @@ namespace touhou_selector
             this.Visible = false;
 
             // Apply settings incase the user wanted to change things manually.
-           // Properties.Settings.Default["t6workdir"] = t6dirTextBox.Text;
-            Properties.Settings.Default["t6exe"] = t6exeTextBox.Text;
-           // Properties.Settings.Default["t7workdir"] = t7dirTextBox.Text;
-            Properties.Settings.Default["t7exe"] = t7exeTextBox.Text;
-           // Properties.Settings.Default["t8workdir"] = t8dirTextBox.Text;
-            Properties.Settings.Default["t8exe"] = t8exeTextBox.Text;
-           // Properties.Settings.Default["t9workdir"] = t9dirTextBox.Text;
-            Properties.Settings.Default["t9exe"] = t9exeTextBox.Text;
-           // Properties.Settings.Default["t95workdir"] = t95dirTextBox.Text;
-            Properties.Settings.Default["t95exe"] = t95exeTextBox.Text;
-           // Properties.Settings.Default["t10workdir"] = t10dirTextBox.Text;
-            Properties.Settings.Default["t10exe"] = t10exeTextBox.Text;
-           // Properties.Settings.Default["t105workdir"] = t105dirTextBox.Text;
-            Properties.Settings.Default["t105exe"] = t105exeTextBox.Text;
-          //  Properties.Settings.Default["t11workdir"] = t11dirTextBox.Text;
-            Properties.Settings.Default["t11exe"] = t11exeTextBox.Text;
-          //  Properties.Settings.Default["t12workdir"] = t12dirTextBox.Text;
-            Properties.Settings.Default["t12exe"] = t12exeTextBox.Text;
-          //  Properties.Settings.Default["t123workdir"] = t123dirTextBox.Text;
-            Properties.Settings.Default["t123exe"] = t123exeTextBox.Text;
-          //  Properties.Settings.Default["t125workdir"] = t125dirTextBox.Text;
-            Properties.Settings.Default["t125exe"] = t125exeTextBox.Text;
+            Properties.Settings.Default["dosboxexe"] = dosdirTextBox.Text;
             Properties.Settings.Default["t1conf"] = t1confTextBox.Text;
             Properties.Settings.Default["t2conf"] = t2confTextBox.Text;
             Properties.Settings.Default["t3conf"] = t3confTextBox.Text;
             Properties.Settings.Default["t4conf"] = t4confTextBox.Text;
             Properties.Settings.Default["t5conf"] = t5confTextBox.Text;
+            Properties.Settings.Default["t6exe"] = t6exeTextBox.Text;
+            Properties.Settings.Default["t7exe"] = t7exeTextBox.Text;
+            Properties.Settings.Default["t8exe"] = t8exeTextBox.Text;
+            Properties.Settings.Default["t9exe"] = t9exeTextBox.Text;
+            Properties.Settings.Default["t95exe"] = t95exeTextBox.Text;
+            Properties.Settings.Default["t10exe"] = t10exeTextBox.Text;
+            Properties.Settings.Default["t105exe"] = t105exeTextBox.Text;
+            Properties.Settings.Default["t11exe"] = t11exeTextBox.Text;
+            Properties.Settings.Default["t12exe"] = t12exeTextBox.Text;
+            Properties.Settings.Default["t123exe"] = t123exeTextBox.Text;
+            Properties.Settings.Default["t125exe"] = t125exeTextBox.Text;
+            Properties.Settings.Default["t13exe"] = t13exeTextBox.Text;
+            Properties.Settings.Default["t135exe"] = t135exeTextBox.Text;
+            Properties.Settings.Default["t14exe"] = t14exeTextBox.Text;
+            Properties.Settings.Default["t143exe"] = t143exeTextBox.Text;
+            Properties.Settings.Default["t145exe"] = t145exeTextBox.Text;
+            Properties.Settings.Default["t15exe"] = t15exeTextBox.Text;
+            Properties.Settings.Default["t155exe"] = t155exeTextBox.Text;
+            Properties.Settings.Default["t16exe"] = t16exeTextBox.Text;
+            Properties.Settings.Default["t165exe"] = t165exeTextBox.Text;
+            Properties.Settings.Default["t17exe"] = t17exeTextBox.Text;
+            Properties.Settings.Default["t175exe"] = t175exeTextBox.Text;
+            Properties.Settings.Default["t18exe"] = t18exeTextBox.Text;
+            Properties.Settings.Default["t185exe"] = t185exeTextBox.Text;
+            Properties.Settings.Default["t19exe"] = t19exeTextBox.Text;
             Properties.Settings.Default.Save();
         }
 
@@ -356,6 +363,190 @@ namespace touhou_selector
                 
                 t125exeTextBox.Text = EXEBrowse.FileName;
                 Properties.Settings.Default["t125exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+        private void t13exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t13exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t13exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t135exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t135exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t135exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t14exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t14exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t14exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t143exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t143exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t143exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t17exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t17exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t17exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t145exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t145exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t145exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t15exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t15exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t15exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t155exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t155exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t155exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t16exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t16exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t16exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t165exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t165exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t165exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+   
+        private void t175exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t175exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t175exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t18exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t18exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t18exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t185exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t185exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t185exe"] = EXEBrowse.FileName;
+                Properties.Settings.Default.Save();
+            }
+        }
+        private void t19exeButton_Click(object sender, EventArgs e)
+        {
+            EXEBrowse.Title = "Touhou Executable";
+            EXEBrowse.Filter = "Exe Files (.exe)|*.exe";
+            DialogResult result = EXEBrowse.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+
+                t19exeTextBox.Text = EXEBrowse.FileName;
+                Properties.Settings.Default["t19exe"] = EXEBrowse.FileName;
                 Properties.Settings.Default.Save();
             }
         }

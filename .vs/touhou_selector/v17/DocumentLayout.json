@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\",
+  "WorkspaceRootPath": "C:\\VSProjects\\touhou_selector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\users\\charl\\onedrive\\documents\\touhou_selector\\touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\users\\charl\\onedrive\\documents\\touhou_selector\\touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|C:\\VSProjects\\touhou_selector\\touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|touhou_selector||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\users\\charl\\onedrive\\documents\\touhou_selector\\touhou_selector\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\vsprojects\\touhou_selector\\touhou_selector\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\vsprojects\\touhou_selector\\touhou_selector\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\vsprojects\\touhou_selector\\touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|c:\\vsprojects\\touhou_selector\\touhou_selector\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{8340F8A9-185E-48D4-B544-3809C10CBD62}|touhou_selector\\touhou_selector.csproj|solutionrelative:touhou_selector\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,15 +33,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form2.cs",
+              "RelativeDocumentMoniker": "touhou_selector\\Form2.cs",
+              "ToolTip": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form2.cs",
+              "RelativeToolTip": "touhou_selector\\Form2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwC8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:33:38.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form2.cs",
+              "RelativeDocumentMoniker": "touhou_selector\\Form2.cs",
+              "ToolTip": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form2.cs [Design]",
+              "RelativeToolTip": "touhou_selector\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:29:27.405Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "touhou_selector",
-              "DocumentMoniker": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\touhou_selector.csproj",
+              "DocumentMoniker": "C:\\VSProjects\\touhou_selector\\touhou_selector\\touhou_selector.csproj",
               "RelativeDocumentMoniker": "touhou_selector\\touhou_selector.csproj",
-              "ToolTip": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\touhou_selector.csproj",
+              "ToolTip": "C:\\VSProjects\\touhou_selector\\touhou_selector\\touhou_selector.csproj",
               "RelativeToolTip": "touhou_selector\\touhou_selector.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-03T12:20:47.586Z",
@@ -41,24 +74,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\Form1.cs",
+              "DocumentMoniker": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form1.cs",
               "RelativeDocumentMoniker": "touhou_selector\\Form1.cs",
-              "ToolTip": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\Form1.cs",
+              "ToolTip": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form1.cs",
               "RelativeToolTip": "touhou_selector\\Form1.cs",
-              "ViewState": "AgIAABMBAAAAAAAAAAAAACsBAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACwDAAAAAAAAAAAYwFoDAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T12:04:54.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\Form1.cs",
+              "DocumentMoniker": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form1.cs",
               "RelativeDocumentMoniker": "touhou_selector\\Form1.cs",
-              "ToolTip": "C:\\Users\\charl\\OneDrive\\Documents\\touhou_selector\\touhou_selector\\Form1.cs [Design]",
+              "ToolTip": "C:\\VSProjects\\touhou_selector\\touhou_selector\\Form1.cs [Design]",
               "RelativeToolTip": "touhou_selector\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T12:04:49.582Z",

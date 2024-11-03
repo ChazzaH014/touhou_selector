@@ -87,6 +87,48 @@ namespace touhou_selector
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.t165exeButton = new System.Windows.Forms.Button();
+            this.t165exeTextBox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.t16exeButton = new System.Windows.Forms.Button();
+            this.t16exeTextBox = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.t155exeButton = new System.Windows.Forms.Button();
+            this.t155exeTextBox = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.t15exeButton = new System.Windows.Forms.Button();
+            this.t15exeTextBox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.t145exeButton = new System.Windows.Forms.Button();
+            this.t145exeTextBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.t14exeButton = new System.Windows.Forms.Button();
+            this.t14exeTextBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.t135exeButton = new System.Windows.Forms.Button();
+            this.t135exeTextBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.t13exeButton = new System.Windows.Forms.Button();
+            this.t13exeTextBox = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.t18exeButton = new System.Windows.Forms.Button();
+            this.t18exeTextBox = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.t175exeButton = new System.Windows.Forms.Button();
+            this.t175exeTextBox = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.t17exeButton = new System.Windows.Forms.Button();
+            this.t17exeTextBox = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.t19exeButton = new System.Windows.Forms.Button();
+            this.t19exeTextBox = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.t185exeButton = new System.Windows.Forms.Button();
+            this.t185exeTextBox = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.t143exeButton = new System.Windows.Forms.Button();
+            this.t143exeTextBox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DirBrowse
@@ -385,7 +427,7 @@ namespace touhou_selector
             // 
             // saveConfButton
             // 
-            this.saveConfButton.Location = new System.Drawing.Point(546, 552);
+            this.saveConfButton.Location = new System.Drawing.Point(546, 883);
             this.saveConfButton.Name = "saveConfButton";
             this.saveConfButton.Size = new System.Drawing.Size(75, 23);
             this.saveConfButton.TabIndex = 66;
@@ -396,11 +438,11 @@ namespace touhou_selector
             // verLabel
             // 
             this.verLabel.AutoSize = true;
-            this.verLabel.Location = new System.Drawing.Point(12, 557);
+            this.verLabel.Location = new System.Drawing.Point(12, 893);
             this.verLabel.Name = "verLabel";
-            this.verLabel.Size = new System.Drawing.Size(60, 13);
+            this.verLabel.Size = new System.Drawing.Size(148, 13);
             this.verLabel.TabIndex = 67;
-            this.verLabel.Text = "Version 1.0";
+            this.verLabel.Text = "Version 1.0.0 - Charlie H 2024";
             // 
             // t3confButton
             // 
@@ -579,11 +621,417 @@ namespace touhou_selector
             this.label7.Text = "Touhou Windows Config";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
+            // t165exeButton
+            // 
+            this.t165exeButton.Location = new System.Drawing.Point(546, 721);
+            this.t165exeButton.Name = "t165exeButton";
+            this.t165exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t165exeButton.TabIndex = 111;
+            this.t165exeButton.Text = "Browse...";
+            this.t165exeButton.UseVisualStyleBackColor = true;
+            this.t165exeButton.Click += new System.EventHandler(this.t165exeButton_Click);
+            // 
+            // t165exeTextBox
+            // 
+            this.t165exeTextBox.Location = new System.Drawing.Point(131, 723);
+            this.t165exeTextBox.Name = "t165exeTextBox";
+            this.t165exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t165exeTextBox.TabIndex = 110;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 726);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 13);
+            this.label8.TabIndex = 109;
+            this.label8.Text = "Touhou 16.5 EXE";
+            // 
+            // t16exeButton
+            // 
+            this.t16exeButton.Location = new System.Drawing.Point(546, 695);
+            this.t16exeButton.Name = "t16exeButton";
+            this.t16exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t16exeButton.TabIndex = 108;
+            this.t16exeButton.Text = "Browse...";
+            this.t16exeButton.UseVisualStyleBackColor = true;
+            this.t16exeButton.Click += new System.EventHandler(this.t16exeButton_Click);
+            // 
+            // t16exeTextBox
+            // 
+            this.t16exeTextBox.Location = new System.Drawing.Point(131, 697);
+            this.t16exeTextBox.Name = "t16exeTextBox";
+            this.t16exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t16exeTextBox.TabIndex = 107;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(12, 700);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(83, 13);
+            this.label9.TabIndex = 106;
+            this.label9.Text = "Touhou 16 EXE";
+            // 
+            // t155exeButton
+            // 
+            this.t155exeButton.Location = new System.Drawing.Point(546, 669);
+            this.t155exeButton.Name = "t155exeButton";
+            this.t155exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t155exeButton.TabIndex = 105;
+            this.t155exeButton.Text = "Browse...";
+            this.t155exeButton.UseVisualStyleBackColor = true;
+            this.t155exeButton.Click += new System.EventHandler(this.t155exeButton_Click);
+            // 
+            // t155exeTextBox
+            // 
+            this.t155exeTextBox.Location = new System.Drawing.Point(131, 671);
+            this.t155exeTextBox.Name = "t155exeTextBox";
+            this.t155exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t155exeTextBox.TabIndex = 104;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(12, 674);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(92, 13);
+            this.label10.TabIndex = 103;
+            this.label10.Text = "Touhou 15.5 EXE";
+            // 
+            // t15exeButton
+            // 
+            this.t15exeButton.Location = new System.Drawing.Point(546, 643);
+            this.t15exeButton.Name = "t15exeButton";
+            this.t15exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t15exeButton.TabIndex = 102;
+            this.t15exeButton.Text = "Browse...";
+            this.t15exeButton.UseVisualStyleBackColor = true;
+            this.t15exeButton.Click += new System.EventHandler(this.t15exeButton_Click);
+            // 
+            // t15exeTextBox
+            // 
+            this.t15exeTextBox.Location = new System.Drawing.Point(131, 645);
+            this.t15exeTextBox.Name = "t15exeTextBox";
+            this.t15exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t15exeTextBox.TabIndex = 101;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(12, 648);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(83, 13);
+            this.label11.TabIndex = 100;
+            this.label11.Text = "Touhou 15 EXE";
+            // 
+            // t145exeButton
+            // 
+            this.t145exeButton.Location = new System.Drawing.Point(546, 617);
+            this.t145exeButton.Name = "t145exeButton";
+            this.t145exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t145exeButton.TabIndex = 99;
+            this.t145exeButton.Text = "Browse...";
+            this.t145exeButton.UseVisualStyleBackColor = true;
+            this.t145exeButton.Click += new System.EventHandler(this.t145exeButton_Click);
+            // 
+            // t145exeTextBox
+            // 
+            this.t145exeTextBox.Location = new System.Drawing.Point(131, 619);
+            this.t145exeTextBox.Name = "t145exeTextBox";
+            this.t145exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t145exeTextBox.TabIndex = 98;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(12, 622);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(92, 13);
+            this.label12.TabIndex = 97;
+            this.label12.Text = "Touhou 14.5 EXE";
+            // 
+            // t14exeButton
+            // 
+            this.t14exeButton.Location = new System.Drawing.Point(546, 565);
+            this.t14exeButton.Name = "t14exeButton";
+            this.t14exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t14exeButton.TabIndex = 96;
+            this.t14exeButton.Text = "Browse...";
+            this.t14exeButton.UseVisualStyleBackColor = true;
+            this.t14exeButton.Click += new System.EventHandler(this.t14exeButton_Click);
+            // 
+            // t14exeTextBox
+            // 
+            this.t14exeTextBox.Location = new System.Drawing.Point(131, 567);
+            this.t14exeTextBox.Name = "t14exeTextBox";
+            this.t14exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t14exeTextBox.TabIndex = 95;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(12, 570);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(83, 13);
+            this.label13.TabIndex = 94;
+            this.label13.Text = "Touhou 14 EXE";
+            // 
+            // t135exeButton
+            // 
+            this.t135exeButton.Location = new System.Drawing.Point(546, 539);
+            this.t135exeButton.Name = "t135exeButton";
+            this.t135exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t135exeButton.TabIndex = 93;
+            this.t135exeButton.Text = "Browse...";
+            this.t135exeButton.UseVisualStyleBackColor = true;
+            this.t135exeButton.Click += new System.EventHandler(this.t135exeButton_Click);
+            // 
+            // t135exeTextBox
+            // 
+            this.t135exeTextBox.Location = new System.Drawing.Point(131, 541);
+            this.t135exeTextBox.Name = "t135exeTextBox";
+            this.t135exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t135exeTextBox.TabIndex = 92;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(12, 544);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(92, 13);
+            this.label14.TabIndex = 91;
+            this.label14.Text = "Touhou 13.5 EXE";
+            // 
+            // t13exeButton
+            // 
+            this.t13exeButton.Location = new System.Drawing.Point(546, 513);
+            this.t13exeButton.Name = "t13exeButton";
+            this.t13exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t13exeButton.TabIndex = 90;
+            this.t13exeButton.Text = "Browse...";
+            this.t13exeButton.UseVisualStyleBackColor = true;
+            this.t13exeButton.Click += new System.EventHandler(this.t13exeButton_Click);
+            // 
+            // t13exeTextBox
+            // 
+            this.t13exeTextBox.Location = new System.Drawing.Point(131, 515);
+            this.t13exeTextBox.Name = "t13exeTextBox";
+            this.t13exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t13exeTextBox.TabIndex = 89;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(12, 518);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 13);
+            this.label15.TabIndex = 88;
+            this.label15.Text = "Touhou 13 EXE";
+            // 
+            // t18exeButton
+            // 
+            this.t18exeButton.Location = new System.Drawing.Point(546, 799);
+            this.t18exeButton.Name = "t18exeButton";
+            this.t18exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t18exeButton.TabIndex = 120;
+            this.t18exeButton.Text = "Browse...";
+            this.t18exeButton.UseVisualStyleBackColor = true;
+            this.t18exeButton.Click += new System.EventHandler(this.t18exeButton_Click);
+            // 
+            // t18exeTextBox
+            // 
+            this.t18exeTextBox.Location = new System.Drawing.Point(131, 801);
+            this.t18exeTextBox.Name = "t18exeTextBox";
+            this.t18exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t18exeTextBox.TabIndex = 119;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(12, 804);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(83, 13);
+            this.label16.TabIndex = 118;
+            this.label16.Text = "Touhou 18 EXE";
+            // 
+            // t175exeButton
+            // 
+            this.t175exeButton.Location = new System.Drawing.Point(546, 773);
+            this.t175exeButton.Name = "t175exeButton";
+            this.t175exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t175exeButton.TabIndex = 117;
+            this.t175exeButton.Text = "Browse...";
+            this.t175exeButton.UseVisualStyleBackColor = true;
+            this.t175exeButton.Click += new System.EventHandler(this.t175exeButton_Click);
+            // 
+            // t175exeTextBox
+            // 
+            this.t175exeTextBox.Location = new System.Drawing.Point(131, 775);
+            this.t175exeTextBox.Name = "t175exeTextBox";
+            this.t175exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t175exeTextBox.TabIndex = 116;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(12, 778);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(92, 13);
+            this.label17.TabIndex = 115;
+            this.label17.Text = "Touhou 17.5 EXE";
+            // 
+            // t17exeButton
+            // 
+            this.t17exeButton.Location = new System.Drawing.Point(546, 747);
+            this.t17exeButton.Name = "t17exeButton";
+            this.t17exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t17exeButton.TabIndex = 114;
+            this.t17exeButton.Text = "Browse...";
+            this.t17exeButton.UseVisualStyleBackColor = true;
+            this.t17exeButton.Click += new System.EventHandler(this.t17exeButton_Click);
+            // 
+            // t17exeTextBox
+            // 
+            this.t17exeTextBox.Location = new System.Drawing.Point(131, 749);
+            this.t17exeTextBox.Name = "t17exeTextBox";
+            this.t17exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t17exeTextBox.TabIndex = 113;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(12, 752);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(83, 13);
+            this.label18.TabIndex = 112;
+            this.label18.Text = "Touhou 17 EXE";
+            // 
+            // t19exeButton
+            // 
+            this.t19exeButton.Location = new System.Drawing.Point(546, 851);
+            this.t19exeButton.Name = "t19exeButton";
+            this.t19exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t19exeButton.TabIndex = 126;
+            this.t19exeButton.Text = "Browse...";
+            this.t19exeButton.UseVisualStyleBackColor = true;
+            this.t19exeButton.Click += new System.EventHandler(this.t19exeButton_Click);
+            // 
+            // t19exeTextBox
+            // 
+            this.t19exeTextBox.Location = new System.Drawing.Point(131, 853);
+            this.t19exeTextBox.Name = "t19exeTextBox";
+            this.t19exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t19exeTextBox.TabIndex = 125;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(12, 856);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(83, 13);
+            this.label19.TabIndex = 124;
+            this.label19.Text = "Touhou 19 EXE";
+            // 
+            // t185exeButton
+            // 
+            this.t185exeButton.Location = new System.Drawing.Point(546, 825);
+            this.t185exeButton.Name = "t185exeButton";
+            this.t185exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t185exeButton.TabIndex = 123;
+            this.t185exeButton.Text = "Browse...";
+            this.t185exeButton.UseVisualStyleBackColor = true;
+            this.t185exeButton.Click += new System.EventHandler(this.t185exeButton_Click);
+            // 
+            // t185exeTextBox
+            // 
+            this.t185exeTextBox.Location = new System.Drawing.Point(131, 827);
+            this.t185exeTextBox.Name = "t185exeTextBox";
+            this.t185exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t185exeTextBox.TabIndex = 122;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(12, 830);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(92, 13);
+            this.label20.TabIndex = 121;
+            this.label20.Text = "Touhou 18.5 EXE";
+            // 
+            // t143exeButton
+            // 
+            this.t143exeButton.Location = new System.Drawing.Point(546, 591);
+            this.t143exeButton.Name = "t143exeButton";
+            this.t143exeButton.Size = new System.Drawing.Size(75, 23);
+            this.t143exeButton.TabIndex = 129;
+            this.t143exeButton.Text = "Browse...";
+            this.t143exeButton.UseVisualStyleBackColor = true;
+            this.t143exeButton.Click += new System.EventHandler(this.t143exeButton_Click);
+            // 
+            // t143exeTextBox
+            // 
+            this.t143exeTextBox.Location = new System.Drawing.Point(131, 593);
+            this.t143exeTextBox.Name = "t143exeTextBox";
+            this.t143exeTextBox.Size = new System.Drawing.Size(409, 20);
+            this.t143exeTextBox.TabIndex = 128;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(12, 596);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(92, 13);
+            this.label21.TabIndex = 127;
+            this.label21.Text = "Touhou 14.3 EXE";
+            // 
             // ConfigWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(637, 585);
+            this.ClientSize = new System.Drawing.Size(637, 915);
+            this.Controls.Add(this.t143exeButton);
+            this.Controls.Add(this.t143exeTextBox);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.t19exeButton);
+            this.Controls.Add(this.t19exeTextBox);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.t185exeButton);
+            this.Controls.Add(this.t185exeTextBox);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.t18exeButton);
+            this.Controls.Add(this.t18exeTextBox);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.t175exeButton);
+            this.Controls.Add(this.t175exeTextBox);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.t17exeButton);
+            this.Controls.Add(this.t17exeTextBox);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.t165exeButton);
+            this.Controls.Add(this.t165exeTextBox);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.t16exeButton);
+            this.Controls.Add(this.t16exeTextBox);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.t155exeButton);
+            this.Controls.Add(this.t155exeTextBox);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.t15exeButton);
+            this.Controls.Add(this.t15exeTextBox);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.t145exeButton);
+            this.Controls.Add(this.t145exeTextBox);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.t14exeButton);
+            this.Controls.Add(this.t14exeTextBox);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.t135exeButton);
+            this.Controls.Add(this.t135exeTextBox);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.t13exeButton);
+            this.Controls.Add(this.t13exeTextBox);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.t5confButton);
@@ -708,5 +1156,47 @@ namespace touhou_selector
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button t165exeButton;
+        private System.Windows.Forms.TextBox t165exeTextBox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button t16exeButton;
+        private System.Windows.Forms.TextBox t16exeTextBox;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button t155exeButton;
+        private System.Windows.Forms.TextBox t155exeTextBox;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button t15exeButton;
+        private System.Windows.Forms.TextBox t15exeTextBox;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button t145exeButton;
+        private System.Windows.Forms.TextBox t145exeTextBox;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button t14exeButton;
+        private System.Windows.Forms.TextBox t14exeTextBox;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button t135exeButton;
+        private System.Windows.Forms.TextBox t135exeTextBox;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button t13exeButton;
+        private System.Windows.Forms.TextBox t13exeTextBox;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button t18exeButton;
+        private System.Windows.Forms.TextBox t18exeTextBox;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button t175exeButton;
+        private System.Windows.Forms.TextBox t175exeTextBox;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button t17exeButton;
+        private System.Windows.Forms.TextBox t17exeTextBox;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button t19exeButton;
+        private System.Windows.Forms.TextBox t19exeTextBox;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button t185exeButton;
+        private System.Windows.Forms.TextBox t185exeTextBox;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Button t143exeButton;
+        private System.Windows.Forms.TextBox t143exeTextBox;
+        private System.Windows.Forms.Label label21;
     }
 }
