@@ -18,11 +18,31 @@ You will not be able to launch anything until you configure the paths, so lets t
 
 ![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
 
+# DOSBox-X PC-98 Config
+This launcher uses custom .conf files for DOSBox-X. I used the default config as a template and changed these values.
+
+
+[dosbox]
+`machine = pc98`
+`memsize = 64`
+
+[cpu]
+`cputype = 486`
+
+[autoexec]
+`imgmount c C:\PC98\TH04.HDI`
+`boot c:`
+
+I did this for each game (1-5). 
+Pretty basic DOSBox-X stuff. :)
+
+# Configuration
 This is the configuration page. You can get here by pressing `ALT + C` Here you can set the location of your games. 
 
 On this page you need to select your games and hit save. **Your changes will be kept.**
 
-![image](https://github.com/user-attachments/assets/5e0c16c6-6079-48ae-b336-70f71ada420b)
+![image](https://github.com/user-attachments/assets/0a98a164-6ffd-4e28-81e3-3ca5b6a7e74d)
 
 
-Now it's ready to go.
+
+Now the launcher is ready to go. Enjoy!
