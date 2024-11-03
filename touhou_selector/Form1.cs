@@ -39,9 +39,9 @@ namespace touhou_selector {
             {
                 menuLoc = 1;
             }
-            if (menuLoc >= 16)
+            if (menuLoc >= 30)
             {
-                menuLoc = 16;
+                menuLoc = 30;
             }
 
             // These are the controls for navigating the menu by decrementing or incrementing the menuLoc variable.
@@ -194,6 +194,118 @@ namespace touhou_selector {
                 pictureBox1.Image = Properties.Resources.TH12f;
                 pictureBox1.Refresh();
                 gameTitle.Text = ("Touhou 12.5: Double Spoiler");
+
+            }
+            if (menuLoc == 17)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH13;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 13: Ten Desires");
+
+            }
+            if (menuLoc == 18)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH135;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 13.5: Hopeless Masquerade");
+
+            }
+            if (menuLoc == 19)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH14;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 14: Double Dealing Character");
+
+            }
+            if (menuLoc == 20)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH143;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 14.3: Impossible Spell Card");
+
+            }
+            if (menuLoc == 21)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH145;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 14.5: Urban Legend in Limbo");
+
+            }
+            if (menuLoc == 22)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH15;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 15: Legacy of Lunatic Kingdom");
+
+            }
+            if (menuLoc == 23)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH155;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 15.5: Antinomy of Common Flowers");
+
+            }
+            if (menuLoc == 24)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH16;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 16: Hidden Star in Four Seasons");
+
+            }
+            if (menuLoc == 25)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH165;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 16.5: Violet Detector");
+
+            }
+            if (menuLoc == 26)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH17;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 17: Wily Beast and Weakest Creature");
+
+            }
+            if (menuLoc == 27)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH175;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 17.5: Sunken Fossil World");
+
+            }
+            if (menuLoc == 28)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH18;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 18: Unconnected Marketeers");
+
+            }
+            if (menuLoc == 29)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH185;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 18.5: 100th Black Market");
+
+            }
+            if (menuLoc == 30)
+            {
+
+                pictureBox1.Image = Properties.Resources.TH19;
+                pictureBox1.Refresh();
+                gameTitle.Text = ("Touhou 19: Unfinished Dream of All Living Ghost");
 
             }
 
@@ -498,17 +610,13 @@ namespace touhou_selector {
                         MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     }
                 }
-
-
-
-
                 else
                 {
                     // Here is that dirty fix from earlier being applied.
                     if (fixErrorSoundBug == false)
                         {
                             // Throw an error message if the game hasnt been installed and coded into the menu yet.
-                            const string message = "This game has not been added yet.";
+                            const string message = "This game has not implemented properly yet. Please contact developer.";
                             const string caption = "Error!";
                             MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                         }

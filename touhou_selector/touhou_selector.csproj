@@ -180,6 +180,48 @@
   <ItemGroup>
     <None Include="Resources\TH12t.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH135r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH143.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH145.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH175.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TH185.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
