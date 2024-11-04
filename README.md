@@ -15,6 +15,7 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 
 In the future i may implement custom keybinds. 
 You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
+![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
 # Compatibility
 .NET Framework 4.0
 Tested and working on Windows XP x64. (However, some of the later games are incompatible with XP)
@@ -24,7 +25,7 @@ So results?
 **Yet to be tested on 32-Bit machines.**
 
 
-![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
+
 
 # DOSBox-X PC-98 Config
 This launcher uses custom .conf files for DOSBox-X. I used the default config as a template and changed these values.
