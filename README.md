@@ -15,6 +15,14 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 
 In the future i may implement custom keybinds. 
 You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
+# Compatibility
+.NET Framework 4.0
+Tested and working on Windows XP x64. (However, some of the later games are incompatible with XP)
+Also tested on Windows 7 and 11. 
+So results?
+**Supports Windows XP to Windows 11 (64-Bit)**
+**Yet to be tested on 32-Bit machines.**
+
 
 ![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
 
@@ -46,3 +54,7 @@ On this page you need to select your games and hit save. **Your changes will be 
 
 
 Now the launcher is ready to go. Enjoy!
+
+# Planned Features
+- Ability to disable/enable games in the menu.
+- Ability to choose if you want the launcher kept open when games are launched.
