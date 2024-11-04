@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 // A Touhou game selection program aimed at arcade machine applications. Arcade machines for private use of course, because i dont actually know the rules behind that.
 // I'm not exactly experienced with C# so the coding methods may be a bit dirty.
@@ -17,12 +18,13 @@ using System.Diagnostics;
 
 namespace touhou_selector {
 	public partial class Form1 : Form {
-        
+
         // I was lazy and couldn't be bothered to figure out how to stop the error sound when launching games. Maybe some formatting error. This is just a dirty fix that works.
         private bool fixErrorSoundBug = false;
-        
+        private bool keepOpen = (bool) Properties.Settings.Default["keepopen"];
+
         // Declaring variables.
-		private int menuLoc = 1;
+        private int menuLoc = 1;
 		public Form1() {
 			InitializeComponent();
 		}
@@ -32,6 +34,10 @@ namespace touhou_selector {
             gameTitle.Text = ("Touhou 1: Highly Responsive to Prayers");
 		}
 
+        public void UpdateSetting()
+        {
+            keepOpen = (bool)Properties.Settings.Default["keepopen"];
+        }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             // These are to stop the selector going out of bounds.
@@ -67,7 +73,7 @@ namespace touhou_selector {
             // Exit control
             if (e.KeyCode == Keys.X)
             {
-                Application.Exit();
+                 
             }
 			
             // This runs a check on the menuLoc variable to see what image needs to be applied.
@@ -314,13 +320,14 @@ namespace touhou_selector {
             // This checks the menuLoc variable and launches the matching game.
             if (e.KeyCode == Keys.Z)
             {
+                keepOpen = (bool)Properties.Settings.Default["keepopen"];
                 if (menuLoc == 1)
                 {
                     fixErrorSoundBug = true;
                     try
                     {
                         Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t1conf"].ToString());
-                        Application.Exit();
+                        
                     }
                     catch
                     {
@@ -335,7 +342,7 @@ namespace touhou_selector {
                     try
                     {
                         Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t2conf"].ToString());
-                        Application.Exit();
+                        
                     }
                     catch
                     {
@@ -351,7 +358,7 @@ namespace touhou_selector {
                     try
                     {
                         Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t3conf"].ToString());
-                        Application.Exit();
+                         
                     }
                     catch
                     {
@@ -367,7 +374,7 @@ namespace touhou_selector {
                     try
                     {
                         Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t4conf"].ToString());
-                        Application.Exit();
+                         
                     }
                     catch
                     {
@@ -383,7 +390,7 @@ namespace touhou_selector {
                     try
                     {
                         Process.Start(Properties.Settings.Default["dosboxexe"].ToString(), "-conf " + Properties.Settings.Default["t5conf"].ToString());
-                        Application.Exit();
+                         
                     }
                     catch
                     {
@@ -404,7 +411,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t6exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t6exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -425,7 +432,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t7exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t7exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -447,7 +454,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t8exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t8exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -469,7 +476,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t9exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t9exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -491,7 +498,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t95exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t95exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -511,7 +518,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t10exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t10exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -529,7 +536,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t105exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t105exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -547,7 +554,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t11exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t11exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -565,7 +572,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t12exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t12exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -583,7 +590,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t123exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t123exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -601,7 +608,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t125exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t125exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -619,7 +626,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t13exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t13exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -637,7 +644,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t135exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t135exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -655,7 +662,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t14exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t14exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -673,7 +680,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t143exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t143exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -691,7 +698,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t145exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t145exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -709,7 +716,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t15exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t15exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -727,7 +734,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t155exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t155exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -745,7 +752,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t16exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t16exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -763,7 +770,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t165exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t165exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -781,7 +788,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t17exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t17exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -799,7 +806,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t175exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t175exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -817,7 +824,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t18exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t18exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -835,7 +842,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t185exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t185exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -853,7 +860,7 @@ namespace touhou_selector {
                         startInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(Properties.Settings.Default["t19exe"].ToString());
                         startInfo.FileName = Properties.Settings.Default["t19exe"].ToString();
                         Process.Start(startInfo);
-                        Application.Exit();
+                         
                     }
                     catch (Exception ex)
                     {
@@ -873,6 +880,11 @@ namespace touhou_selector {
                             MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                         }
                     }
+
+                if (keepOpen == false)
+                {
+                    Application.Exit();
+                }
             }
             
 		}

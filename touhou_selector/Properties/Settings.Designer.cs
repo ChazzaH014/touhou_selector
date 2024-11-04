@@ -526,5 +526,17 @@ namespace touhou_selector.Properties {
                 this["t19exe"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool keepopen {
+            get {
+                return ((bool)(this["keepopen"]));
+            }
+            set {
+                this["keepopen"] = value;
+            }
+        }
     }
 }
