@@ -63,5 +63,4 @@ Now the launcher is ready to go. Enjoy!
 
 # Planned Features
 - Ability to disable/enable games in the menu.
-- Ability to choose if you want the launcher kept open when games are launched.
-- Redesign/Compact Configuration Page.
+
