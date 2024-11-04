@@ -18,12 +18,12 @@ You will not be able to launch anything until you configure the paths, so lets t
 
 ![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
 # Compatibility
-.NET Framework 4.0
-Tested and working on Windows XP x64. (However, some of the later games are incompatible with XP)
-Also tested on Windows 7 and 11. 
-So results?
-**Supports Windows XP to Windows 11 (64-Bit)**
-**Yet to be tested on 32-Bit machines.**
+- .NET Framework 4.0
+- Tested and working on Windows XP x64. (However, some of the later games are incompatible with XP)
+- Also tested on Windows 7 and 11. 
+Conclusion?
+- **Supports Windows XP to Windows 11 (64-Bit)**
+- **Yet to be tested on 32-Bit machines.**
 
 
 
