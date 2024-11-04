@@ -16,7 +16,8 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 In the future i may implement custom keybinds. 
 You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
 
-![image](https://github.com/user-attachments/assets/d609a398-fda5-45f8-826b-69b8ec1a6142)
+![image](https://github.com/user-attachments/assets/7e8ccae1-f558-4351-b7bf-100ad9b48d3f)
+
 # Compatibility
 - .NET Framework 4.0
 - Tested and working on Windows 7 and 11.
@@ -53,7 +54,8 @@ This is the configuration page. You can get here by pressing `ALT + C` Here you 
 
 On this page you need to select your games and hit save. **Your changes will be kept.**
 
-![image](https://github.com/user-attachments/assets/0a98a164-6ffd-4e28-81e3-3ca5b6a7e74d)
+![image](https://github.com/user-attachments/assets/57402004-4e32-454b-b9b3-fab3d1c9ba33)
+
 
 
 
