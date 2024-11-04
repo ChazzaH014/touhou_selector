@@ -16,3 +16,12 @@ C:\Users\charl\OneDrive\Documents\touhou_selector\touhou_selector\obj\Release\to
 C:\Users\charl\OneDrive\Documents\touhou_selector\touhou_selector\obj\Release\touhou_selector.csproj.GenerateResource.cache
 C:\Users\charl\OneDrive\Documents\touhou_selector\touhou_selector\obj\Release\touhou_selector.csproj.CoreCompileInputs.cache
 C:\Users\charl\OneDrive\Documents\touhou_selector\touhou_selector\obj\Release\Touhou Game Selector.exe
+C:\VSProjects\touhou_selector\touhou_selector\bin\Release\Touhou Game Selector.exe.config
+C:\VSProjects\touhou_selector\touhou_selector\bin\Release\Touhou Game Selector.exe
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.csproj.AssemblyReference.cache
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.Form1.resources
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.ConfigWindow.resources
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.Properties.Resources.resources
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.csproj.GenerateResource.cache
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\touhou_selector.csproj.CoreCompileInputs.cache
+C:\VSProjects\touhou_selector\touhou_selector\obj\Release\Touhou Game Selector.exe
