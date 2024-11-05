@@ -45,10 +45,10 @@
             // gameTitle
             // 
             this.gameTitle.AutoSize = true;
-            this.gameTitle.Font = new System.Drawing.Font("Symbol", 8.25F);
+            this.gameTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
             this.gameTitle.Location = new System.Drawing.Point(12, 98);
             this.gameTitle.Name = "gameTitle";
-            this.gameTitle.Size = new System.Drawing.Size(31, 13);
+            this.gameTitle.Size = new System.Drawing.Size(67, 32);
             this.gameTitle.TabIndex = 2;
             this.gameTitle.Text = "TEXT";
             // 
