@@ -15,8 +15,8 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 
 In the future i may implement custom keybinds. 
 You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
+![image](https://github.com/user-attachments/assets/c0b8b1a6-2bc8-4482-8f1c-2af1115d2827)
 
-![image](https://github.com/user-attachments/assets/7e8ccae1-f558-4351-b7bf-100ad9b48d3f)
 
 # Compatibility
 - .NET Framework 4.0
