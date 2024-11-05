@@ -73,7 +73,7 @@ namespace touhou_selector {
             // Exit control
             if (e.KeyCode == Keys.X)
             {
-                 
+                Application.Exit();  
             }
 			
             // This runs a check on the menuLoc variable to see what image needs to be applied.
