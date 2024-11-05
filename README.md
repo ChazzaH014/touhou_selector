@@ -8,6 +8,9 @@ I have created this application as i am working on making an arcade cabinet for 
 # How to use
 This is the selection screen. It is pretty basic, bear in mind that this is the first version. The controls are displayed on the screen. It is pretty straight forward to use.
 
+![image](https://github.com/user-attachments/assets/134ef3dd-534d-451f-b86c-4165100db7ca)
+
+
 - `Down Arrow` to increment. 
 - `Up Arrow` to decrement. 
 - `Z` to Launch the selected game. 
@@ -15,7 +18,9 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 
 In the future i may implement custom keybinds. 
 You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
-![image](https://github.com/user-attachments/assets/c0b8b1a6-2bc8-4482-8f1c-2af1115d2827)
+
+![image](https://github.com/user-attachments/assets/dd071172-ae81-41fd-bf85-6fb61d86bf9e)
+
 
 
 # Compatibility
