@@ -352,7 +352,7 @@ namespace touhou_selector
             this.verLabel.Name = "verLabel";
             this.verLabel.Size = new System.Drawing.Size(148, 13);
             this.verLabel.TabIndex = 67;
-            this.verLabel.Text = "Version 1.1.0 - Charlie H 2024";
+            this.verLabel.Text = "Version 1.2.0 - ChazSoft 2024";
             // 
             // t3confButton
             // 
