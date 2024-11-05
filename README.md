@@ -16,12 +16,15 @@ This is the selection screen. It is pretty basic, bear in mind that this is the 
 - `Z` to Launch the selected game. 
 - `X` to exit. 
 
-In the future i may implement custom keybinds. 
-You will not be able to launch anything until you configure the paths, so lets take a look at the configuration page.
-
-![image](https://github.com/user-attachments/assets/dd071172-ae81-41fd-bf85-6fb61d86bf9e)
 
 
+# Configuration
+You will not be able to launch anything until you configure the paths.
+You can get here by pressing `ALT + C` Here you can set the location of your games. 
+
+On this page you need to select your games and hit save. **Your changes will be kept.**
+
+![image](https://github.com/user-attachments/assets/57402004-4e32-454b-b9b3-fab3d1c9ba33)
 
 # Compatibility
 - .NET Framework 4.0
@@ -54,12 +57,6 @@ This launcher uses custom .conf files for DOSBox-X. I used the default config as
 I did this for each game (1-5). 
 Pretty basic DOSBox-X stuff. :)
 
-# Configuration
-This is the configuration page. You can get here by pressing `ALT + C` Here you can set the location of your games. 
-
-On this page you need to select your games and hit save. **Your changes will be kept.**
-
-![image](https://github.com/user-attachments/assets/57402004-4e32-454b-b9b3-fab3d1c9ba33)
 
 
 
@@ -68,4 +65,5 @@ Now the launcher is ready to go. Enjoy!
 
 # Planned Features
 - Ability to disable/enable games in the menu.
+- Custom keybinds.
 
