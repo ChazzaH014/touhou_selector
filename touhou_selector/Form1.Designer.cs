@@ -66,7 +66,7 @@
             // CtrBox
             // 
             this.CtrBox.AutoSize = true;
-            this.CtrBox.BackColor = System.Drawing.Color.Silver;
+            this.CtrBox.BackColor = System.Drawing.Color.Gray;
             this.CtrBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CtrBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CtrBox.ForeColor = System.Drawing.Color.White;
